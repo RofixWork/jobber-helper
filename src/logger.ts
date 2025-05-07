@@ -18,7 +18,7 @@ export function winstonLogger(elasticsearchnode: string, name: string, level: st
         level,
         exitOnError: true,
         defaultMeta: {service: name},
-        exceptionHandlers: true,
+        handleExceptions: true,
         transports: [
             esTransport,
             new winston.transports.Console({
