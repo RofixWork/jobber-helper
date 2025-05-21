@@ -1,6 +1,6 @@
 {
   "name": "@rofixwork/jobber-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A helper library for jobber",
   "main": "./build/src/index.js",
   "types": "./build/src/index.d.ts",
